@@ -6,8 +6,6 @@ import com.atiurin.sampleapp.R
 import org.hamcrest.CoreMatchers
 import org.hamcrest.Matcher
 import org.hamcrest.Matchers
-import org.hamcrest.Matchers.containsString
-import org.hamcrest.Matchers.instanceOf
 
 object UIElementPage {
 
@@ -18,4 +16,5 @@ object UIElementPage {
     val messageInputText: Matcher<View> by lazy { Matchers.allOf(withId(R.id.message_input_text), withText("Enter text")) }
     val textInput: Matcher<View> by lazy { Matchers.allOf(withId(R.id.message_input_text)) }
     val clearTextOption: Matcher<View> by lazy { withClassName(CoreMatchers.`is`("android.widget.ImageView")) }
+
 }

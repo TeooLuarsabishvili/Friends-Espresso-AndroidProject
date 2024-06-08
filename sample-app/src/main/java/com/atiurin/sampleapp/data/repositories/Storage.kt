@@ -8,7 +8,8 @@ import com.atiurin.sampleapp.data.entities.User
 val CURRENT_USER = User(1, "Joey Tribbiani", Avatars.JOEY.drawable, "joey", "1234")
 
 val CONTACTS = arrayListOf(
-    Contact(2, "Chandler Bing", "Joey doesn't share food!", Avatars.CHANDLER.drawable),
+    Contact(2,"Teona", "straight from hell", Avatars.TEONA.drawable),
+   // Contact(2, "Chandler Bing", "Joey doesn't share food!", Avatars.CHANDLER.drawable),
     Contact(3, "Ross Geller", "UNAGI", Avatars.ROSS.drawable),
     Contact(4, "Rachel Green", "I got off the plane!", Avatars.RACHEL.drawable),
     Contact(5, "Phoebe Buffay", "Smelly cat, smelly cat..", Avatars.PHOEBE.drawable),
@@ -37,7 +38,8 @@ val CONTACTS = arrayListOf(
     Contact(29, "Friend17", "Time fluid capacitor", Avatars.DEFAULT.drawable),
     Contact(30, "Friend18", "Time fluid capacitor", Avatars.DEFAULT.drawable),
     Contact(31, "Friend19", "Time fluid capacitor", Avatars.DEFAULT.drawable),
-    Contact(32, "Friend20", "Time fluid capacitor", Avatars.DEFAULT.drawable)
+    Contact(32, "Friend20", "Time fluid capacitor", Avatars.DEFAULT.drawable),
+    Contact(33,"Teona", "straight from hell", Avatars.TEONA.drawable)
 )
 
 enum class Avatars(val drawable: Int) {
@@ -49,13 +51,14 @@ enum class Avatars(val drawable: Int) {
     GUNTHER(R.drawable.gunther),
     JOEY(R.drawable.joey),
     JANICE(R.drawable.janice),
+    TEONA(R.drawable.images),
     DEFAULT(R.drawable.default_avatar)
 }
 
 
 val MESSAGES = arrayListOf(
-    Message(1, 2, "What's up Chandler"),
-    Message(2, 1, "Hi Joey"),
+    Message(1, 2, "What's up Teona"),
+    Message(2, 1, "Running from Country"),
     Message(1, 2, "Let's drink coffee"),
     Message(2, 1, "Ok"),
     Message(1, 3, "Do u wanna coffee?"),

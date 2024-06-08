@@ -40,6 +40,7 @@ fun ViewInteraction.click() = UltronEspressoInteraction(this).click()
 fun ViewInteraction.doubleClick() = UltronEspressoInteraction(this).doubleClick()
 fun ViewInteraction.longClick() = UltronEspressoInteraction(this).longClick()
 
+fun ViewInteraction.clickBurgerManu(offsetX: Int = 40, offsetY: Int = 40) = UltronEspressoInteraction(this).clickTopLeft(offsetX, offsetY)
 fun ViewInteraction.clickTopLeft(offsetX: Int = 0, offsetY: Int = 0) = UltronEspressoInteraction(this).clickTopLeft(offsetX, offsetY)
 fun ViewInteraction.clickTopCenter(offsetY: Int) = UltronEspressoInteraction(this).clickTopCenter(offsetY)
 fun ViewInteraction.clickTopRight(offsetX: Int = 0, offsetY: Int = 0) = UltronEspressoInteraction(this).clickTopRight(offsetX, offsetY)

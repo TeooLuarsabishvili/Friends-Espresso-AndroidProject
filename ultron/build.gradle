@@ -98,3 +98,11 @@ artifacts {
     archives javadocJar
     archives sourcesJar
 }
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    androidTestImplementation 'com.atiurin:ultron:2.3.5'
+}

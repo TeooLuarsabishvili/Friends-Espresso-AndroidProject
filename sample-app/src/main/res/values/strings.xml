@@ -18,6 +18,8 @@
     <string name="menu_compose_ui_elements">Compose UiElements</string>
     <string name="menu_compose_list">Compose List</string>
     <string name="title_friends_list">Friends</string>
+    <string name="dashboard">Dashboard</string>
+
 
     <string name="button_text">Simple Button</string>
     <string name="button_default_content_desc">Default content description</string>
