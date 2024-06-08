@@ -4,8 +4,7 @@ import androidx.test.espresso.Espresso.onView
 import com.atiurin.sampleapp.helper.waitForViewVisible
 import com.atiurin.sampleapp.pages.BurgerManuPageMatchers
 import com.atiurin.ultron.extensions.click
-import com.atiurin.ultron.extensions.clickTopCenter
-import com.atiurin.ultron.extensions.clickTopLeft
+
 
 class BurgerManuPageSteps {
     fun clickCustomClickButton() {

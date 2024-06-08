@@ -4,10 +4,8 @@ package com.atiurin.sampleapp.steps
 import androidx.test.espresso.Espresso.onView
 import com.atiurin.sampleapp.helper.*
 import com.atiurin.sampleapp.pages.ChatListMatchers
-import com.atiurin.ultron.extensions.click
 import com.atiurin.ultron.extensions.clickBurgerManu
-import com.atiurin.ultron.extensions.clickTopLeft
-import com.atiurin.ultron.extensions.isChecked
+
 
 
 class ChatListSteps {
